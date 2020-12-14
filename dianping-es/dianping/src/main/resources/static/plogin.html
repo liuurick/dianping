@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="//www.dpfile.com/app/app-m-login/css/common.min.c22125ef2c6cb290e75a050d114e5eb0.css">
+    <link rel="stylesheet" type="text/css" href="//www.dpfile.com/app/app-m-login/css/mobile.min.697232eb6672a9e5173690358c728397.css">
+    <title>用户登录</title>
+    <script crossorigin="anonymous" src="//www.dpfile.com/app/owl/static/owl.min.57e7d73af5de4934d3f7cae341d504fa.js"></script>
+
+    <script>
+        var rohrdata = "";
+        var Rohr_Opt = new Object;
+        Rohr_Opt.Flag = "100046";
+        Rohr_Opt.LogVal = "rohrdata";
+        window._mobileLogin = {"redir":"http://localhost:8010/static/index.html"}
+    </script>
+</head>
+<body>
+
+<header>
+    <script>
+        Owl.start({
+            project: 'mobile-account-web',
+        })
+    </script>
+    <div class="top-bar">
+        <div class="back"><a href="javascript:history.go(-1);"></a></div>
+        <div class="title">手机号快捷登录</div>
+        <div class="register"></div>
+    </div>
+</header>
+<div id="login-form" class="form mt16"></div>
+<div class="form-info">未注册的手机号码验证后自动创建账户</div>
+<div class="form-button">
+    <a id="login-button" href="javascript:;" class="login">登录</a>
+    <div class="extra login-user"><a href="/static/login.html">账号密码登录</a></div>
+</div>
+
+
+
+<footer class="oauth-login">
+    <div class="seperator">
+        <div class="line"></div>
+        <div class="text">　第三方账号登录　</div>
+        <div class="line"></div>
+    </div>
+    <div class="icons">
+        <a class="icon-qq" href="/auth?ft=6&redir=https%3A%2F%2Fm.dianping.com%2Fnmy%2Fmyinfo"></a>
+        <a class="icon-weibo" href="/auth?ft=2&redir=https%3A%2F%2Fm.dianping.com%2Fnmy%2Fmyinfo"></a>
+    </div>
+</footer>
+
+<div class="agreement">
+    登录即表示你同意<a href="//https://www.hustwenhua.net/">《用户使用协议》</a>
+</div>
+
+
+<script type="text/javascript" src="//www.dpfile.com/app/app-m-login/js/common.min.3e552f906619535cfa348ed64774eb6f.js"></script>
+<script type="text/javascript" src="//www.dpfile.com/app/app-m-login/js/mobile.min.9673e40c326ada7da64300c7e915ef52.js"></script>
+<script defer src="https://s0.meituan.net/mx/rohr/rohr.min.js"></script>
+</body>
+</html>
